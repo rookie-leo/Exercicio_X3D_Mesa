@@ -1,0 +1,53 @@
+<html> 
+   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+     <title>Meu primeiro X3DOM</title> 
+     <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script> 
+     <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'></link> 
+   </head> 
+   <body> 
+     
+     
+	 <x3d width='500px' height='400px'> 
+	   <scene> 
+       
+		  	<shape> 
+    	    	<appearance> 
+              <!-- Conversão de cores HTML p/ X3D:
+              Dividir o valor do HTML por 255 
+              Marrom em HTML: 139 69 19
+              Marrom em X3D: 139/255 69/255 19/255
+              Marrom em X3D: 0.54    0.27    0.07
+              -->
+	    		    <material diffuseColor='0.54 0.27 0.07'/>
+		    	  </appearance> 
+          
+		      <box size='106 2 49'/> 
+    		</shape> 
+
+       <transform translation='-53 0 0'>
+		  	<shape> 
+    	    	<appearance> 
+              <!-- Conversão de cores HTML p/ X3D:
+              Dividir o valor do HTML por 255 -->
+	    		    <material diffuseColor='0.54 0.27 0.07'/>
+		    	</appearance> 
+		      <box size='2 79 49'/> 
+    		</shape> 
+       </transform>
+
+       <transform translation='53 0 0'>
+		  	<shape> 
+    	    	<appearance> 
+              <!-- Conversão de cores HTML p/ X3D:
+              Dividir o valor do HTML por 255 -->
+	    		    <material diffuseColor='0.54 0.27 0.07'/>
+		    	</appearance> 
+		      <box size='2 79 49'/> 
+    		</shape> 
+       </transform>
+       
+     </scene>
+   </x3d>
+  </body>
+</html>-->
