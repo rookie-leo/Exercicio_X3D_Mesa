@@ -10,7 +10,8 @@
      
 	 <x3d width='500px' height='400px'> 
 	   <scene> 
-       
+
+       <!--base da mesa-->
 		  	<shape> 
     	    	<appearance> 
               <!-- Conversão de cores HTML p/ X3D:
@@ -25,7 +26,8 @@
 		      <box size='106 2 49'/> 
     		</shape> 
 
-       <transform translation='-53 0 0'>
+       <!--lado esquerdo-->
+       <transform translation='-53 -38.5 0'>
 		  	<shape> 
     	    	<appearance> 
               <!-- Conversão de cores HTML p/ X3D:
@@ -36,7 +38,8 @@
     		</shape> 
        </transform>
 
-       <transform translation='53 0 0'>
+       <!--lado direito-->
+       <transform translation='53 -38.5 0'>
 		  	<shape> 
     	    	<appearance> 
               <!-- Conversão de cores HTML p/ X3D:
@@ -46,8 +49,21 @@
 		      <box size='2 79 49'/> 
     		</shape> 
        </transform>
+
+
+       <!--um pezinho-->
+       <transform translation='53 -78 20'>
+		  	<shape> 
+    	    	<appearance> 
+              <!-- Conversão de cores HTML p/ X3D:
+              Dividir o valor do HTML por 255 -->
+	    		    <material diffuseColor='0 0 0'/>
+		    	</appearance> 
+		      <cone buttomradio='0.5' height='2'/> 
+    		</shape> 
+       </transform>
        
      </scene>
    </x3d>
   </body>
-</html>-->
+</html>
